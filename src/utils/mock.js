@@ -59,3 +59,9 @@ export const SERVICES = [
       "At Nova Builder, our design-building approach transforms concepts into reality seamlessly. With our integrated design and construction services, we streamline the entire process from inception to completion. Our expert team collaborates closely with you to create innovative and functional spaces that exceed expectations. Let us bring your vision to life with efficiency, creativity, and unmatched craftsmanship.",
   },
 ];
+
+export const TESTIMONIALS = [
+  {id: 1, name: "Jack Smith", review: "Do dodo"},
+  {id: 2, name: "Rose Packer",},
+  {id: 3, name: "Adams Yakubu",},
+]
