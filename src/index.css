@@ -31,5 +31,7 @@
     @apply h-11 bg-primary text-white text-sm px-6 rounded hover:bg-blue-200 hover:text-primary
   }
 
-  
+  .gallery-img {
+    @apply w-full h-72 md:h-full object-cover
+  }
 }
