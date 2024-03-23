@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { RiMenu4Line, RiCloseFill } from "react-icons/ri";
 import MobileNavBar from "./MobileNavBar";
 
+const dot = (
+  <div className="bg-darkBlue mx-2 self-center rounded-full h-[6px] w-[6px] "></div>
+);
+
 const NavBar = () => {
   const [isMenu, setIsMenu] = useState(false);
 
@@ -10,11 +14,15 @@ const NavBar = () => {
   };
   return (
     <>
-      {isMenu && <MobileNavBar setIsMenu={setIsMenu}/>}
+      {isMenu && <MobileNavBar setIsMenu={setIsMenu} />}
       <div className="bg-background sticky top-0 z-10">
         <nav className="max-w-screen-xl mx-auto py-4 px-6">
           <div className="flex items-center justify-between">
-            <img src="" alt="logo" className="h-11 w-auto object-contain" />
+            <div className="flex items-center">
+              <span className="font-bold text-2xl text-darkBlue">N</span>
+              <div className="bg-darkBlue mx-0 self-center rounded-full h-[6px] w-[6px] "></div>
+              <span className="font-bold text-2xl text-darkBlue">B</span>
+            </div>{" "}
             <ul className="hidden md:flex md:gap-12">
               <li>
                 <a className="menu-item">Home</a>

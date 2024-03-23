@@ -34,4 +34,8 @@
   .gallery-img {
     @apply w-full h-72 md:h-full object-cover
   }
+
+  .arrow-btn {
+    @apply  bg-white p-1 rounded-md absolute top-[45%]
+  }
 }
