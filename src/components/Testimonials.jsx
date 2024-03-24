@@ -49,9 +49,10 @@ const Testimonials = () => {
 
   return (
     <section className="max-w-[1200px] mx-auto py-16">
-      <h5 className="text-center text-darkBlue font-semibold text-2xl mb-16">
+      <h5 className="text-center text-darkBlue font-semibold text-2xl mb-2">
         What people says about us
       </h5>
+      <p className="text-center mb-14 text-gray-500"> Checkout what our clients have to say about us!</p>
       <div className="relative mb-7 px-5 md:px-10 ">
         <Slider ref={sliderRef} {...setting}>
           {TESTIMONIALS.map((item) => (
