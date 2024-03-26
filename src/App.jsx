@@ -6,6 +6,7 @@ import OurService from "./components/OurService";
 import OurWork from "./components/OurWork";
 import Testimonials from "./components/Testimonials";
 import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <OurWork />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </div>
   );
 };
