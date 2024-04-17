@@ -8,7 +8,7 @@ import img6 from "../assets/nic6.jpeg";
 
 const OurWork = () => {
   return (
-    <section className="max-w-[1200px] pt-8 mx-auto">
+    <section id="our-work" className="max-w-[1200px] pt-8 mx-auto">
       <h5 className="text-2xl font-semibold text-darkBlue text-center mb-2 ">
         Our work
       </h5>

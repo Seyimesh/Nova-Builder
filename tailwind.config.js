@@ -12,7 +12,7 @@ module.exports = {
         background: "#f7faff",
         darkBlue: "#1b4282",
         lightBlue: "#8dd6ff",
-        dinBlue: "#f7faff",
+        dimBlue: "#f7faff",
         overlayBg: "rgba(0,0,0,0.3)",
       },
     },

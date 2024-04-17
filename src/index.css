@@ -7,7 +7,7 @@
 @layer base {
   html {
     font-family: "Lato", sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
   }
 }
 

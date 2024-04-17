@@ -5,7 +5,7 @@ import house2 from "../../assets/house3.jpeg";
 
 const HeroSection = () => {
   return (
-    <section className="max-w-screen-xl flex flex-col-reverse gap-12 items-center mx-auto py-16 px-6 md:flex-row ">
+    <section id="hero" className="max-w-screen-xl flex flex-col-reverse gap-12 items-center mx-auto py-16 px-6 md:flex-row ">
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-3xl font-bold text-gradient mb-3 md:text-4xl md:leading-[2.4rem] lg:text-4xl lg:leading-[2.5rem]">
           Building Aspirations, Shaping Futures.

@@ -4,7 +4,7 @@ import { SERVICES } from "../utils/mock";
 
 const OurService = () => {
   return (
-    <section className="max-w-[1200px] mx-auto py-16">
+    <section id="services" className="max-w-[1200px] mx-auto py-16">
       <h5 className="text-2xl text-darkBlue mb-2 text-center font-semibold">
         Our Service
       </h5>
